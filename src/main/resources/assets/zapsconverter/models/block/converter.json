@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "front": "zapsconverter:block/converter_in",
+    "side": "zapsconverter:block/converter_out",
+    "top": "zapsconverter:block/converter_out"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "RCR",
+    "EXE",
+    "RCR"
+  ],
+  "key": {
+    "X": {
+      "item": "ftbic:advanced_machine_block"
+    },
+    "C": {
+      "item": "ftbic:ev_cable"
+    },
+    "E": {
+      "item": "ftbic:energy_crystal"
+    },
+    "R": {
+      "tag": "forge:storage_blocks/redstone"
+    }
+  },
+  "result": {
+    "item": "zapsconverter:converter",
+    "count": 1
+  }
+}

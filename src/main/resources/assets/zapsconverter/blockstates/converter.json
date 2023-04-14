@@ -1,0 +1,48 @@
+{
+  "variants": {
+    "facing=down,dark=false": {
+      "model": "zapsconverter:block/converter_vertical",
+      "x": 180
+    },
+    "facing=east,dark=false": {
+      "model": "zapsconverter:block/converter",
+      "y": 90
+    },
+    "facing=north,dark=false": {
+      "model": "zapsconverter:block/converter"
+    },
+    "facing=south,dark=false": {
+      "model": "zapsconverter:block/converter",
+      "y": 180
+    },
+    "facing=up,dark=false": {
+      "model": "zapsconverter:block/converter_vertical"
+    },
+    "facing=west,dark=false": {
+      "model": "zapsconverter:block/converter",
+      "y": 270
+    },
+    "facing=down,dark=true": {
+      "model": "zapsconverter:block/converter_vertical_dark",
+      "x": 180
+    },
+    "facing=east,dark=true": {
+      "model": "zapsconverter:block/converter_dark",
+      "y": 90
+    },
+    "facing=north,dark=true": {
+      "model": "zapsconverter:block/converter_dark"
+    },
+    "facing=south,dark=true": {
+      "model": "zapsconverter:block/converter_dark",
+      "y": 180
+    },
+    "facing=up,dark=true": {
+      "model": "zapsconverter:block/converter_vertical_dark"
+    },
+    "facing=west,dark=true": {
+      "model": "zapsconverter:block/converter_dark",
+      "y": 270
+    }
+  }
+}
