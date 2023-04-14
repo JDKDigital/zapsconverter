@@ -1,4 +1,4 @@
 {
-    "block.zapsconverter.converter": "Zaps Converter",
+    "block.zapsconverter.converter": "FE to Zaps Converter",
     "zapsconverter.fe_to_zap_conversion": "Allows one-way conversion of FE to %1$s (%2$s FE = 1 %1$s)"
 }

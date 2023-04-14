@@ -7,6 +7,7 @@ import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.entity.BlockEntityType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.material.Material;
@@ -35,7 +36,7 @@ public class ZapsConverter
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, MODID);
     public static final DeferredRegister<BlockEntityType<?>> BLOCK_ENTITIES = DeferredRegister.create(ForgeRegistries.BLOCK_ENTITY_TYPES, MODID);
 
-    public static final RegistryObject<Block> CONVERTER = BLOCKS.register("converter", () -> new Converter(BlockBehaviour.Properties.of(Material.STONE)));
+    public static final RegistryObject<Block> CONVERTER = BLOCKS.register("converter", () -> new Converter(BlockBehaviour.Properties.of(Material.METAL).strength(3.5F).sound(SoundType.METAL).requiresCorrectToolForDrops()));
     public static final RegistryObject<Item> CONVERTER_ITEM = ITEMS.register("converter", () -> new BlockItem(CONVERTER.get(), new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
     public static final RegistryObject<BlockEntityType<ConverterBlockEntity>> CONVERTER_BLOCK_ENTITY = BLOCK_ENTITIES.register("converter",
             () -> BlockEntityType.Builder.of(ConverterBlockEntity::new, CONVERTER.get()).build(null)
