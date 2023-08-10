@@ -1,0 +1,4 @@
+{
+    "block.zapsconverter.converter": "FE至Zaps转换器",
+    "zapsconverter.fe_to_zap_conversion": "允许将FE单向转换为%1$s（%2$s FE = 1 %1$s）"
+}
